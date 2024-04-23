@@ -5,10 +5,10 @@ export const TimelinePage = () => {
     return <div>
         <BackgroundLabel label={"EVENTS"}>
         <div>
-          Time line
+          Time Line
         </div>
       </BackgroundLabel>
-      <div className=" py-36">
+      <div className=" py-20">
         <Timeline />
       </div>
     </div>
