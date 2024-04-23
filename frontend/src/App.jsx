@@ -1,21 +1,23 @@
-import { Timeline } from './components/Timeline'
-import './index.css'
+import React from 'react';
+import './index.css';
+import { TimelinePage } from './components/TimelinePage';
+import { PrizesPage } from './components/PrizesPage';
+import { SponsorsPage } from './components/SponsersPage';
 
 function App() {
-
   return (
-    <div>
-      <div className='flex justify-center py-5 border-b'>
-        this is a app bar
+    <div className='bg-black'>
+      <div>
+        <TimelinePage />
       </div>
-    <div className='pt-2'>
-      <Timeline />
+      <div>
+        <PrizesPage />
+      </div>
+      <div>
+        <SponsorsPage />
+      </div>
     </div>
-    <div className='pt-2'>
-      <Timeline />
-    </div>
-    </div>
-  )
+  );
 }
 
-export default App
+export default App;
