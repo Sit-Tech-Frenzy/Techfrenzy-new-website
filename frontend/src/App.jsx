@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-
+        this is the home page
     </>
   )
 }
