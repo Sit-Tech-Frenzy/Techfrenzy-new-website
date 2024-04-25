@@ -8,10 +8,10 @@ export const PrizeComponent = () => {
   }, []);
 
   const prizes = [
-    { position: 'First Prize', description: '🏆 Memento, Certificate, and Rewards' },
-    { position: 'Second Prize', description: '🥈 Memento, Certificate, and Rewards 💲' },
-    { position: 'Third Prize', description: '🥉 Memento, Certificate, and Rewards 💲' },
-    { position: 'Remaining All Teams', description: 'Participation certificates for your resume 📜' },
+    { position: 'First Prize', description: '🏆 Memento, Certificate, and Cash Rewards' },
+    { position: 'Second Prize', description: '🥈 Memento, Certificate, and Cash Rewards' },
+    { position: 'Third Prize', description: '🥉 Memento, Certificate, and Cash Rewards' },
+    { position: 'Remaining All Teams', description: '📜 Participation certificates for your resume ' },
   ];
 
   return (
@@ -20,14 +20,17 @@ export const PrizeComponent = () => {
         {prizes.map((prize, index) => (
           <div
             key={index}
-            className="bg-gray-800 p-6 rounded-md transform hover:shadow-lg transition-transform duration-300"
+            className="bg-gray-800 lg:p-6 p-4 rounded-md transform hover:shadow-lg transition-transform duration-300 text-center"
             data-aos="fade-up"
           >
-            <h3 className="text-xl font-semibold text-white">{prize.position}</h3>
-            <p className="text-gray-400">{prize.description}</p>
+            <h3 className="lg:text-3xl text-xl font-semibold text-white">{prize.position}</h3>
+            <p className="text-gray-400 text-xl">{prize.description}</p>
           </div>
         ))}
       </div>
+      <p className="text-gray-400 text-xl pt-10 text-center">
+        If your project turns out to be truly innovative and valuable, we could consider applying for a patent to further support our research efforts.<br/> This would be a significant achievement.
+      </p>
     </div>
   );
 };
