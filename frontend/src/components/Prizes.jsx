@@ -23,7 +23,7 @@ export const PrizeComponent = () => {
             className="bg-gray-800 lg:p-6 p-4 rounded-md transform hover:shadow-lg transition-transform duration-300 text-center"
             data-aos="fade-up"
           >
-            <h3 className="lg:text-3xl text-xl font-semibold text-white">{prize.position}</h3>
+            <h3 className="lg:text-2xl text-xl font-semibold text-white">{prize.position}</h3>
             <p className="text-gray-400 text-xl">{prize.description}</p>
           </div>
         ))}
