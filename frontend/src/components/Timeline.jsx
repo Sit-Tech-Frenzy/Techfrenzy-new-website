@@ -4,70 +4,25 @@ import "react-vertical-timeline-component/style.min.css";
 
 const WorkIcon = () => <></>;
 
-export const Timeline = () => {
+export const Timeline = ({ data }) => {
   return (
     <div className="App">
       <VerticalTimeline>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(152,152,152, 0.2)", color: "#fff", borderRadius: '10px' }}
-          date="2008 - 2010"
-          dateClassName='text-white font-blod'
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-          <p>User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(152,152,152, 0.2)", color: "#fff", borderRadius: '10px' }}
-          date="2008 - 2010"
-          dateClassName='text-white font-blod'
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-          <p>User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(152,152,152, 0.2)", color: "#fff", borderRadius: '10px' }}
-          date="2008 - 2010"
-          dateClassName='text-white font-blod'
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-          <p>User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(152,152,152, 0.2)", color: "#fff", borderRadius: '10px' }}
-          date="2008 - 2010"
-          dateClassName='text-white font-blod'
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-          <p>User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(152,152,152, 0.2)", color: "#fff", borderRadius: '10px' }}
-          date="2008 - 2010"
-          dateClassName='text-white font-blod'
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-          <p>User Experience, Visual Design</p>
-        </VerticalTimelineElement>
+        {data.map((item, index) => (
+          <VerticalTimelineElement
+            key={index}
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(152,152,152, 0.2)", color: "#fff", borderRadius: '10px' }}
+            date={item.date}
+            dateClassName='text-white font-blod'
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">{item.title}</h3>
+            <h4 className="vertical-timeline-element-subtitle">{item.subtitle}</h4>
+            <p>{item.description}</p>
+          </VerticalTimelineElement>
+        ))}
       </VerticalTimeline>
     </div>
   );

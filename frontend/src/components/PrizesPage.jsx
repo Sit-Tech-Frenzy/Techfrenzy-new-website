@@ -4,7 +4,7 @@ import { PrizeComponent } from "./Prizes";
 export const PrizesPage = () => {
     return (
         <div>
-            <BackgroundLabel label={"Win Big"}>
+            <BackgroundLabel>
                 Prizes
             </BackgroundLabel>
             <div className="">
