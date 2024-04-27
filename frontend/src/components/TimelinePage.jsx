@@ -5,19 +5,19 @@ export const TimelinePage = () => {
   const timelineData = [
     {
       id: 1,
-      date: "2022-01-01",
-      title: "Event 1",
-      description: "Description of Event 1",
+      date: "April 17th",
+      title: "Registration Opens",
+      description: "Register for the hackathon and get ready to embark on an exciting journey of innovation.",
     },
     {
       id: 2,
-      date: "2022-02-01",
-      title: "Event 2",
-      description: "Description of Event 2",
+      date: "May 7th",
+      title: "Registration Closes",
+      description: "Last day to register for the hackathon. Don't miss out on the opportunity to showcase your skills and win exciting prizes.",
     },
     {
       id: 3,
-      date: "Day 1: 10:00 AM - 10:30 AM",
+      date: "Day 1: 10:00 AM - 10:30 AM, May 17th",
       title: "Energize Your Brain",
       description: "Start your day with an inspirational keynote or a quick icebreaker session to getyour creative juices flowing. Meet your fellow hackers and form connections that will last beyond the event.",
     },
@@ -59,7 +59,7 @@ export const TimelinePage = () => {
     },
     {
       id: 9,
-      date: "Day 2: 10:00 AM - 11:00 AM",
+      date: "Day 2: 10:00 AM - 11:00 AM, May 18th",
       title: "Rise and Shine",
       description: `Return to campus, ready to tackle the final stretch of your project. Today is all
       about putting the finishing touches on your masterpiece.`,
