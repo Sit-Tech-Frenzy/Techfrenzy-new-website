@@ -15,7 +15,7 @@ export const PrizeComponent = () => {
   ];
 
   return (
-    <div className="bg-black rounded-lg shadow-md p-6">
+    <div className="bg-gray-900 rounded-lg shadow-md p-6">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {prizes.map((prize, index) => (
           <div
