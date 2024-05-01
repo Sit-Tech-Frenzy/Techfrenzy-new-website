@@ -38,6 +38,36 @@ export const mentorData = [
       xLink: "",
       linkedInLink: "",
     },
+    {
+        id: 4,
+        image:
+          "https://dl.bc.cdn.garenanow.com/bcm/na/img/character/character_a2.png",
+        name: "Yami Sukehiro",
+        position: "Captain",
+        company: "Black Bull Squad",
+        xLink: "",
+        linkedInLink: "",
+      },
+      {
+        id: 4,
+        image:
+          "https://dl.bc.cdn.garenanow.com/bcm/na/img/character/character_a2.png",
+        name: "Yami Sukehiro",
+        position: "Captain",
+        company: "Black Bull Squad",
+        xLink: "",
+        linkedInLink: "",
+      },
+      {
+        id: 4,
+        image:
+          "https://dl.bc.cdn.garenanow.com/bcm/na/img/character/character_a2.png",
+        name: "Yami Sukehiro",
+        position: "Captain",
+        company: "Black Bull Squad",
+        xLink: "",
+        linkedInLink: "",
+      },
   ];
   
   export const testimonialData = [

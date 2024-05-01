@@ -1,13 +1,16 @@
 import Card from "./Card";
 import Testimonial from "./Testimonial";
 import { mentorData, testimonialData } from "../data";
+import { BackgroundLabel } from "./BackgroundLabel";
 
 const MainPage = () => {
   return (
     <div className="main-page">
-      <h2 className="main-h2">Mentors</h2>
+      <BackgroundLabel>
+        Our Team
+      </BackgroundLabel>
 
-      <div className="cards-container grid grid-cols-4">
+      <div className="cards-container grid lg:grid-cols-6 grid-cols-1">
         {mentorData.map((mentor) => (
           <Card
             id={mentor.id}
