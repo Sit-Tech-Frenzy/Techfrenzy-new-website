@@ -7,6 +7,9 @@ import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Footer from "./components/Footer"
+import Testimonial from './components/Testimonial';
+import Card from './components/Card';
+import MainPage from './components/MainPage';
 
 function App() {
   return (
@@ -28,6 +31,7 @@ function App() {
       </div>
       <div>
         <About/>
+      <MainPage />
       </div>
       <div>
         <Footer/>
