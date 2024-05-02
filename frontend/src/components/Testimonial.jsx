@@ -1,6 +1,13 @@
+import AOS from 'aos';
+import { useEffect } from "react";
+
 const Testimonial = ({ content, name }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className="testimonial bg-gradient-to-r from-gray-100 to-gray-200 rounded-lg p-2 shadow-md hover:shadow-lg lg:m-3 m-4 flex flex-col justify-between">
+    <div className="testimonial bg-gradient-to-r from-gray-100 to-gray-200 rounded-lg p-2 shadow-md hover:shadow-lg lg:m-3 m-4 flex flex-col justify-between"  data-aos="fade-up">
       <div className="px-6">
         <div className="testimonial-content">
           <p className="text-gray-600 pt-4 font-medium">
