@@ -74,20 +74,39 @@ export const mentorData = [
     {
       id: 1,
       content:
-        "As a student mentor at SIT Tech Frenzy, I've seen participants unleash their creativity and collaborate in ways that redefine innovation. It's a transformative experience that leaves a lasting impact on everyone involved.",
+      "As a student mentor at SIT Tech Frenzy, I've seen participants unleash their creativity and collaborate in ways that redefine innovation. It's a transformative experience that leaves a lasting impact on everyone involved.",
       name: "Shreshtha",
     },
     {
       id: 2,
       content:
-        "Experience the electrifying SIT Tech Frenzy, where coding, hardware, and software converge in intense 24-hour hackathons. As a mentor, I've seen teams push limits, collaborate, and innovate, forging lifelong connections. Dive into the ultimate tech playground for mind-blowing projects and unparalleled growth.",
+      "Experience the electrifying SIT Tech Frenzy, where coding, hardware, and software converge in intense 24-hour hackathons. As a mentor, I've seen teams push limits, collaborate, and innovate, forging lifelong connections. Dive into the ultimate tech playground for mind-blowing projects and unparalleled growth.",
       name: "Soumwadeep",
     },
     {
       id: 3,
       content:
-        "SIT Tech Frenzy isn't just a community; it's an innovative journey. As a former organizer, I witnessed firsthand the power of collaboration and innovation. Together, we pushed boundaries, sparked creativity, and left a lasting impact.",
+      "SIT Tech Frenzy isn't just a community; it's an innovative journey. As a former organizer, I witnessed firsthand the power of collaboration and innovation. Together, we pushed boundaries, sparked creativity, and left a lasting impact.",
       name: "Satyaki",
     },
-  ];
+    {
+      id: 4,
+      content:
+      "Being a part of SIT Tech Frenzy has been an incredible experience. The energy and enthusiasm of the participants is contagious, and the level of innovation and creativity is truly inspiring. It's a platform that fosters growth and empowers individuals to push their boundaries.",
+      name: "Aniket",
+    },
+    {
+      id: 5,
+      content:
+      "SIT Tech Frenzy is a melting pot of talent and ideas. The collaborative environment encourages participants to think outside the box and come up with groundbreaking solutions. It's a place where innovation thrives and connections are made that last a lifetime.",
+      name: "Priya",
+    },
+    {
+      id: 6,
+      content:
+      "As a mentor at SIT Tech Frenzy, I've had the privilege of guiding and supporting aspiring technologists. The dedication and passion of the participants is truly inspiring, and it's amazing to see their growth throughout the event. SIT Tech Frenzy is a platform that nurtures talent and fosters innovation.",
+      name: "Rahul",
+    },
+];
+
   

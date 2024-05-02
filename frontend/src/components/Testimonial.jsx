@@ -1,19 +1,25 @@
 const Testimonial = ({ content, name }) => {
-    return (
-      <div className="bg-gray-900 rounded-lg p-5 flex flex-col justify-between h-72 w-96 gap-10">
-        <div>
-          <p className="text-white text-lg font-semibold">{content}</p>
-        </div>
-        <div className="flex items-center gap-20">
-          <img
-            src="https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"
-            alt="testimonial image"
-            className="w-10 h-10 rounded-full"
-          />
-          <p className="text-red-500 text-lg font-semibold">{name}</p>
+  return (
+    <div className="testimonial bg-gradient-to-r from-gray-100 to-gray-200 rounded-lg p-2 shadow-md hover:shadow-lg lg:m-3 m-4 flex flex-col justify-between">
+      <div className="px-6">
+        <div className="testimonial-content">
+          <p className="text-gray-600 pt-4 font-medium">
+            <span className="text-2xl text-red-800 font-semibold">“</span>
+            {content}
+            <span className="text-2xl text-red-800 font-semibold">”</span>
+          </p>
         </div>
       </div>
-    );
-  };
-  
-  export default Testimonial;
+      <div className="testimonial-author flex items-center mt-2 px-6">
+        <img
+          src={"https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"}
+          alt="testimonial author"
+          className="w-12 h-12 rounded-full border border-gray-300 hover:border-gray-400"
+        />
+        <p className="text-red-800 text-lg font-semibold ml-4">{name}</p>
+      </div>
+    </div>
+  );
+};
+
+export default Testimonial; 

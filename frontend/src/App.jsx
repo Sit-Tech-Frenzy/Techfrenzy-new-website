@@ -8,7 +8,9 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Footer from "./components/Footer"
 import CardPage from './components/CardPage';
+import Testimonial from './components/Testimonial';
 import TestimonialPage from './components/TestimonialPage';
+// import TestimonialPage from './components/TestimonialPage';
 
 function App() {
   return (
