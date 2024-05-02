@@ -7,35 +7,21 @@ import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Footer from "./components/Footer"
-import Testimonial from './components/Testimonial';
-import Card from './components/Card';
-import MainPage from './components/MainPage';
+import CardPage from './components/CardPage';
+import TestimonialPage from './components/TestimonialPage';
 
 function App() {
   return (
     <div className='bg-gray-900'>
-      <div>
-        <Navigation />
-      </div>
-      <div>
-        <Hero/>
-      </div>
-      <div>
-        <TimelinePage />
-      </div>
-      <div>
-        <PrizesPage />
-      </div>
-      <div>
-        <SponsorsPage />
-      </div>
-      <div>
-        <About/>
-      <MainPage />
-      </div>
-      <div>
-        <Footer/>
-      </div>
+      <Navigation />
+      <Hero/>
+      <TimelinePage />
+      <PrizesPage />
+      <SponsorsPage />
+      <About/>
+      <CardPage />
+      <TestimonialPage />
+      <Footer/>
     </div>
   );
 }
