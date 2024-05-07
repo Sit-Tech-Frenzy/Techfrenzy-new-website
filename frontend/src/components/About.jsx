@@ -34,9 +34,23 @@ const About = () => {
           initial={{ x: '-100%' }}
           animate={{ x: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className='text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-400 pt-5'
+          className='text-lg sm:text-xl lg:text-2xl text-gray-400 pt-5 container'
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet augue venenatis fermentum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vel quo quaerat doloremque nemo libero exercitationem nesciunt distinctio suscipit dolor. Cumque vitae quae aspernatur enim voluptatibus nemo doloremque voluptas atque!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aliquid eaque explicabo harum id corrupti magnam error doloribus laudantium architecto sunt, totam quia cum nobis accusantium facere velit provident quibusdam.
+          <strong>Welcome to SIT Tech Frenzy,</strong> where innovation meets collaboration!
+          We are dedicated to providing a vibrant ecosystem for tech enthusiasts and beginners. 
+
+          <strong>Our mission</strong> is to provide a platform where young minds can connect, learn, and grow together in the ever-evolving landscape of technology with guidance and assistance from experts and seniors always!
+
+          Our community is driven by a shared passion for innovation and a commitment to knowledge sharing. Through our events, students get the opportunity to network with like-minded individuals and dive into a variety of challenges designed to push their limits and spark their creativity. 
+
+          Some events like:
+          <ul>
+            <li>Tech Frenzy Hackathon</li>
+            <li>Ideathon 2.0</li>
+          </ul>
+          have already marked their places, and we’ll be soon up with many more such events! 
+
+          <strong>Join us,</strong> and together, let’s compete for amazing prizes and recognition for your innovative solutions, shaping the future of technology.
         </motion.p>
       </div>
     </motion.div>
