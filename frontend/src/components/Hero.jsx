@@ -40,7 +40,8 @@ const Hero = () => {
         </h1>
         <br/>
         <p className='md:text-2xl text-xl font-bold text-gray-500'>
-          <AnimatedText text='Lets join together to grow together, just writing to check if it is responsive or not just ignore as of now' />
+          <AnimatedText text="Join us at TechFrenzy, where we foster innovation and collaboration. Innovate, and grow with us." /> 
+          <AnimatedText text="Let's turn ideas into reality together"/>
         </p>
         <a href="https://forms.gle/H57CzCWW8baPNfVb9" target='_blank' rel='noopener noreferrer'>
           <AnimatedButton text='Register Now!'/>
