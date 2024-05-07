@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { CountDown } from './CountDown';
 
 const AnimatedText = ({ text }) => {
   return (
@@ -42,6 +43,10 @@ const Hero = () => {
           <AnimatedText text='Lets join together to grow together, just writing to check if it is responsive or not just ignore as of now' />
         </p>
         <AnimatedButton text='Join us' />
+        <div>
+          <h2 className='text-2xl font-bold text-gray-500 p-4'>Hackathon begins in:</h2>
+          <CountDown />
+      </div>
       </div>
     </div>
   );
