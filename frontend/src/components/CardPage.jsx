@@ -9,7 +9,7 @@ const CardPage = () => {
                 Our Team
             </BackgroundLabel>
 
-            <div className="cards-container grid lg:grid-cols-6 grid-cols-1">
+            <div className="cards-container grid lg:grid-cols-6 grid-cols-1 lg:mx-5 m-8">
                 {mentorData.map((mentor) => (
                     <Card
                         id={mentor.id}

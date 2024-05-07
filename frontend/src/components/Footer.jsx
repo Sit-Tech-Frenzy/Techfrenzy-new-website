@@ -14,13 +14,13 @@ const Footer = () => {
           SIT Tech Frenzy is a hub for tech lovers! Join our events to connect, learn, and build the future of technology with workshops, hackathons, and more!
         </p>
         <div className='flex justify-between md:w-[75%] my-6 cursor-pointer'>
-          <a href='https://www.linkedin.com/company/sit-techfrenzy/'>
+          <a href='https://www.linkedin.com/company/sit-techfrenzy/' target='_blank' rel='noopener noreferrer'>
             <FaLinkedin size={30} />
           </a>
-          <a href='https://www.facebook.com/profile.php?id=61551874715764&mibextid=ZbWKwL'>
+          <a href='https://www.facebook.com/profile.php?id=61551874715764&mibextid=ZbWKwL' target='_blank' rel='noopener noreferrer'>
             <FaFacebookSquare size={30} />
           </a>
-          <a href='https://www.instagram.com/sit_techfrenzy'>
+          <a href='https://www.instagram.com/sit_techfrenzy' target='_blank' rel='noopener noreferrer'>
             <FaInstagram size={30} />
           </a>
         </div>
