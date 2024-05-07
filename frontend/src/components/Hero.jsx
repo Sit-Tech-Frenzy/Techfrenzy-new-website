@@ -42,7 +42,9 @@ const Hero = () => {
         <p className='md:text-2xl text-xl font-bold text-gray-500'>
           <AnimatedText text='Lets join together to grow together, just writing to check if it is responsive or not just ignore as of now' />
         </p>
-        <AnimatedButton text='Join us' />
+        <a href="https://forms.gle/H57CzCWW8baPNfVb9" target='_blank' rel='noopener noreferrer'>
+          <AnimatedButton text='Register Now!'/>
+        </a>
         <div>
           <h2 className='text-2xl font-bold text-gray-500 p-4'>Hackathon begins in:</h2>
           <CountDown />
