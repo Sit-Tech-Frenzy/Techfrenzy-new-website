@@ -3,27 +3,42 @@ import './index.css';
 import { TimelinePage } from './components/TimelinePage';
 import { PrizesPage } from './components/PrizesPage';
 import { SponsorsPage } from './components/SponsersPage';
-import Navigation from "./components/Navigation";
+import { Navigation } from "./components/Navigation";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
 import CardPage from './components/CardPage';
-import Testimonial from './components/Testimonial';
 import TestimonialPage from './components/TestimonialPage';
-// import TestimonialPage from './components/TestimonialPage';
+import { Element } from 'react-scroll';
 
 function App() {
   return (
     <div className='bg-gray-900'>
       <Navigation />
-      <Hero/>
-      <TimelinePage />
-      <PrizesPage />
-      <SponsorsPage />
-      <About/>
-      <CardPage />
-      <TestimonialPage />
-      <Footer/>
+      <Element name='home'>
+        <Hero />
+      </Element>
+      <Element name='timeline'>
+        <TimelinePage />
+      </Element>
+      <Element name='prizes'>
+        <PrizesPage />
+      </Element>
+      <Element name='sponsors'>
+        <SponsorsPage />
+      </Element>
+      <Element name='about'>
+        <About />
+      </Element>
+      <Element name='members'>
+        <CardPage />
+      </Element>
+      <Element name='testimonial'>
+        <TestimonialPage />
+      </Element>
+      <Element name='contact'>
+        <Footer />
+      </Element>
     </div>
   );
 }
