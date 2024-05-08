@@ -6,7 +6,7 @@ export const mentorData = [
       name: "Satyaki Sinha",
       position: "Student Mentor",
       xLink: "",
-      linkedInLink: "",
+      linkedInLink: "https://www.linkedin.com/in/satyaki-sinha-872607195/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ export const mentorData = [
       position: "Student Mentor",
       company: "",
       xLink: "",
-      linkedInLink: "",
+      linkedInLink: "https://www.linkedin.com/in/soumwadeepguha/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ export const mentorData = [
       position: "Organizer",
       company: "",
       xLink: "",
-      linkedInLink: "",
+      linkedInLink: "https://www.linkedin.com/in/debesh-paul-4254511bb/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       id: 4,
@@ -35,7 +35,7 @@ export const mentorData = [
       position: "Organizer",
       company: "",
       xLink: "",
-      linkedInLink: "",
+      linkedInLink: "https://www.linkedin.com/in/subhasree-saha-7b439a28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
         id: 5,
@@ -45,7 +45,7 @@ export const mentorData = [
         position: "Co-Organizer",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/farhanansari09/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 6,
@@ -55,7 +55,7 @@ export const mentorData = [
         position: "Co-Organizer",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/farhanansari09/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 7,
@@ -65,7 +65,7 @@ export const mentorData = [
         position: "Technical Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/dipak-agarwal-26812b248/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 8,
@@ -75,7 +75,7 @@ export const mentorData = [
         position: "Technical Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/sahil-aktar-7723a51b1/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 9,
@@ -85,7 +85,7 @@ export const mentorData = [
         position: "Technical Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/mandir-das-527353227/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 10,
@@ -95,7 +95,7 @@ export const mentorData = [
         position: "Technical Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/withabhinay/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 11,
@@ -105,7 +105,7 @@ export const mentorData = [
         position: "Technical Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/aniket-ghosh-8b0b53281/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 12,
@@ -115,7 +115,7 @@ export const mentorData = [
         position: "Management Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/priyatosh-roy-93541a212/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 13,
@@ -125,7 +125,7 @@ export const mentorData = [
         position: "Management Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/ishita-choudhury-198536224/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 14,
@@ -135,7 +135,7 @@ export const mentorData = [
         position: "Management Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/sagar-paswan-8a7755228/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 15,
@@ -145,7 +145,7 @@ export const mentorData = [
         position: "Management Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/medha-ghosh-736938296/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 16,
@@ -155,7 +155,7 @@ export const mentorData = [
         position: "Management Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/eshita-gon-862a42204/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 17,
@@ -165,7 +165,7 @@ export const mentorData = [
         position: "Social Media Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/sanjoy-dey-713b67228/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 18,
@@ -175,7 +175,7 @@ export const mentorData = [
         position: "Social Media Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/prattusha-paul-38b798287/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 19,
@@ -185,7 +185,7 @@ export const mentorData = [
         position: "Social Media Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/agniva-ghosh-503331278/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 20,
@@ -195,7 +195,7 @@ export const mentorData = [
         position: "Content Writing Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/sneha-guha-neogi-028509274/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 21,
@@ -205,7 +205,7 @@ export const mentorData = [
         position: "Content Writing Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/shreya-prasad-0b1397252/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 22,
@@ -215,7 +215,7 @@ export const mentorData = [
         position: "Content Writing Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/aishika-mukherjee-78a16629a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 23,
@@ -225,7 +225,7 @@ export const mentorData = [
         position: "Content Writing Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/paushali-karmakar-6288a2308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         id: 24,
@@ -235,17 +235,17 @@ export const mentorData = [
         position: "Design Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/hrishab-biswas-799378254/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
-        id: 7,
+        id: 25,
         image:
           "/src/assets/Prasanjit Dey.jpg",
         name: "Prasanjit Dey",
         position: "Design Team",
         company: "",
         xLink: "",
-        linkedInLink: "",
+        linkedInLink: "https://www.linkedin.com/in/prasanjit-dey-7574a3285/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       
   ];
