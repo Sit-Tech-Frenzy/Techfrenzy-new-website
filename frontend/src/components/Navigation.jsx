@@ -41,7 +41,7 @@ export const Navigation = () => {
       <div onClick={handleNav} className='block md:hidden'>
         {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
       </div>
-      <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-gray-500 bg-gray-700 ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%] '}>
+      <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-gray-500 bg-gray-700 ease-in-out duration-500 z-50' : 'ease-in-out duration-500 fixed left-[-100%] z-50'}>
         <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>TechFrenzy</h1>
         <li className='p-4 cursor-pointer border-b border-gray-600'>
           <Link to="home" smooth={true} duration={500}>Home</Link>
