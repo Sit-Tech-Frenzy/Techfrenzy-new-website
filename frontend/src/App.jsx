@@ -8,8 +8,9 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import CardPage from './components/CardPage';
-import TestimonialPage from './components/TestimonialPage';
+// import TestimonialPage from './components/TestimonialPage';
 import { Element } from 'react-scroll';
+import { Testimonial } from './components/Testimonial';
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
         <CardPage />
       </Element>
       <Element name='testimonial'>
-        <TestimonialPage />
+        <Testimonial />
       </Element>
       <Element name='contact'>
         <Footer />

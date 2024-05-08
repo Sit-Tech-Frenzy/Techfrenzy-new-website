@@ -1,32 +1,60 @@
-import AOS from 'aos';
-import { useEffect } from "react";
+import React from "react";
+import InfiniteMovingCards from "../components/ui/infinite-moving-cards";
+import { testimonials } from "../data";
+import { BackgroundLabel } from "./BackgroundLabel";
 
-const Testimonial = ({ content, name }) => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
+export function Testimonial() {
   return (
-    <div className="testimonial bg-gradient-to-r from-gray-100 to-gray-200 rounded-lg p-2 shadow-md hover:shadow-lg lg:m-3 m-4 flex flex-col justify-between"  data-aos="fade-up">
-      <div className="px-6">
-        <div className="testimonial-content">
-          <p className="text-gray-600 pt-4 font-medium">
-            <span className="text-2xl text-red-800 font-semibold">“</span>
-            {content}
-            <span className="text-2xl text-red-800 font-semibold">”</span>
-          </p>
-        </div>
-      </div>
-      <div className="testimonial-author flex items-center mt-2 px-6">
-        <img
-          src={"https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"}
-          alt="testimonial author"
-          className="w-12 h-12 rounded-full border border-gray-300 hover:border-gray-400"
+    <div>
+      <BackgroundLabel>
+        Testimonial
+      </BackgroundLabel>
+      <div className=" rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
+        <InfiniteMovingCards
+          items={testimonials}
+          direction="right"
+          speed="normal"
         />
-        <p className="text-red-800 text-lg font-semibold ml-4">{name}</p>
+      </div>
+      <div className="h-[38rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
+        <InfiniteMovingCards
+          items={testimonials}
+          direction="left"
+          speed="normal"
+        />
       </div>
     </div>
   );
-};
+}
 
-export default Testimonial; 
+// const testimonials = [
+//   {
+//     quote:
+//       "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
+//     name: "Charles Dickens",
+//     title: "A Tale of Two Cities",
+//   },
+//   {
+//     quote:
+//       "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
+//     name: "William Shakespeare",
+//     title: "Hamlet",
+//   },
+//   {
+//     quote: "All that we see or seem is but a dream within a dream.",
+//     name: "Edgar Allan Poe",
+//     title: "A Dream Within a Dream",
+//   },
+//   {
+//     quote:
+//       "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+//     name: "Jane Austen",
+//     title: "Pride and Prejudice",
+//   },
+//   {
+//     quote:
+//       "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
+//     name: "Herman Melville",
+//     title: "Moby-Dick",
+//   },
+// ];
