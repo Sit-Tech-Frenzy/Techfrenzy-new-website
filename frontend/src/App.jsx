@@ -25,9 +25,9 @@ function App() {
       <Element name='prizes'>
         <PrizesPage />
       </Element>
-      <Element name='sponsors'>
+      {/* <Element name='sponsors'>
         <SponsorsPage />
-      </Element>
+      </Element> */}
       <Element name='about'>
         <About />
       </Element>

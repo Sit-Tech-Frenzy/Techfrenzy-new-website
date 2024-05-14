@@ -23,9 +23,9 @@ export const Navigation = () => {
           <li className='p-4 cursor-pointer'>
             <Link to="prizes" smooth={true} duration={500}>Prizes</Link>
           </li>
-          <li className='p-4 cursor-pointer'>
+          {/* <li className='p-4 cursor-pointer'>
             <Link to="sponsors" smooth={true} duration={500}>Sponsors</Link>
-          </li>
+          </li> */}
           <li className='p-4 cursor-pointer'>
             <Link to="about" smooth={true} duration={500}>About</Link>
           </li>
