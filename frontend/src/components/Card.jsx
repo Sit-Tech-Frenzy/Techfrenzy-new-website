@@ -2,8 +2,8 @@ import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const Card = ({ id, name, image, position, company, xLink, linkedInLink }) => {
     return (
-        <div className="bg-gradient-to-br from-gray-900 to-red-700 rounded-xl shadow-md hover:shadow-xl transform hover:scale-105 transition-transform duration-200 ease-in-out p-2 md:p-4 lg:m-2 mx-4 my-2">
-            <div className="flex flex-col items-center mb-4">
+        <div className="bg-gradient-to-br from-violet-200 to-purple-600 rounded-xl shadow-md hover:shadow-xl transform hover:scale-105 transition-transform duration-200 ease-in-out p-2 md:p-4 lg:m-2 mx-4 my-2">
+            <div className="flex flex-col items-center mb-4 mt-4">
                 <img src={image} className=" h-64 object-cover rounded-lg mb-4" alt={name} />
 
                 <h2 className="text-white text-2xl font-bold mb-2">{name}</h2>
