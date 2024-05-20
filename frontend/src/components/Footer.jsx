@@ -4,12 +4,13 @@ import {
   FaInstagram,
   FaLinkedin,
 } from 'react-icons/fa';
+import Main_logo from '../assets/Logo_main.png';
 
 const Footer = () => {
   return (
     <div className='container mx-auto py-16 px-4 text-gray-300 lg:flex justify-between mt-6'>
       <div className=' max-w-96'>
-        <h1 className='w-full text-3xl font-bold text-[#00df9a]'>TechFrenzy</h1>
+        <img src={Main_logo} alt='logo' className='h-12 w-32' />
         <p className='py-4'>
           SIT Tech Frenzy is a hub for tech lovers! Join our events to connect, learn, and build the future of technology with workshops, hackathons, and more!
         </p>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { Link } from 'react-scroll';
+import MianLogo from '../assets/Logo_main.png';
 
 export const Navigation = () => {
   const [nav, setNav] = useState(false);
@@ -12,7 +13,7 @@ export const Navigation = () => {
   return (
     <div className='flex justify-between items-center h-24 w-full sticky top-0 mx-auto px-4 text-white font-semibold z-50 bg-gray-900/90'>
       <div className='container flex justify-between items-center mx-auto'>
-        <h1 className='text-3xl font-bold text-[#00df9a]'>TechFrenzy</h1>
+        <img src={MianLogo} alt='logo' className='h-12 w-32' />
         <ul className='hidden md:flex'>
           <li className='p-4 cursor-pointer'>
             <Link to="home" smooth={true} duration={500}>Home</Link>
