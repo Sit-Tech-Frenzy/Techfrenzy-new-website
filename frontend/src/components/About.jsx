@@ -46,11 +46,10 @@ const About = () => {
           Some events like:
           <ul>
             <li>Tech Frenzy Hackathon</li>
-            <li>Ideathon 2.0</li>
           </ul>
           have already marked their places, and we’ll be soon up with many more such events! 
 
-          <strong>Join us,</strong> and together, let’s compete for amazing prizes and recognition for your innovative solutions, shaping the future of technology.
+          <strong> Join us,</strong> and together, let’s compete for amazing prizes and recognition for your innovative solutions, shaping the future of technology.
         </motion.p>
       </div>
     </motion.div>

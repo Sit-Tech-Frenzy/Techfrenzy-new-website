@@ -57,7 +57,7 @@ const Footer = () => {
         <div>
           <h6 className='font-medium text-gray-400 pt-6'>Contact Us With Email</h6>
           <ul>
-            <li className='py-2 text-sm'>TechFrenzy@gmail.com</li>
+            <li className='py-2 text-sm'>sittechfrenzy@gmail.com</li>
           </ul>
         </div>
       </div>

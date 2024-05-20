@@ -19,9 +19,9 @@ function App() {
       <Element name='home'>
         <Hero />
       </Element>
-      <Element name='timeline'>
+      {/* <Element name='timeline'>
         <TimelinePage />
-      </Element>
+      </Element> */}
       <Element name='prizes'>
         <PrizesPage />
       </Element>

@@ -257,25 +257,25 @@ export const testimonials = [
     id: 1,
     quote:
       "I am consistently pleased by the SIT Tech Frenzy community's dedication to quality. Their work demonstrates not only their technical proficiency, but also their ability to function as a team. This group is shaping the next generation of technology leaders.",
-    name: "",
+    name: "Dr. Joydeep Dutta",
   },
   {
     id: 2,
     quote:
       "As a member of the faculty, I've been impressed by the enthusiasm and drive displayed by the SIT Tech Frenzy Club. Beyond just organizing hackathons, the club serves as a hub for students to exchange ideas and explore the latest trends in technology. It's a testament to their commitment to personal and professional development in the ever-evolving field of tech.",
-    name: "",
+    name: "Deb Shekhar Laha",
   },
   {
     id: 3,
     quote:
       "At SIT College, the Tech Frenzy Club serves as a catalyst for curiosity and creativity in the realm of technology. As a professor, I've had the pleasure of witnessing the club's impact on students' intellectual growth and professional development. Their initiatives go beyond traditional academia, encouraging students to think critically, problem-solve independently, and embrace innovation as a driving force in their education.",
-    name: "",
+    name: "Dr. Sirshendu Sekhar",
   },
   {
     id: 4,
     quote:
       "As a college professor, I highly recommend the SIT Tech Frenzy to my students and other interested young minds. The community serves as an invaluable platform for communication, sharing insights, and staying updated on the latest tech trends,  collaborative environment fosters meaningful discussions and encourages continuous learning, making it an essential resource for anyone passionate about technology and innovation.",
-    name: "",
+    name: "Dr. Mithun Chakraborty",
   },
 ];
 

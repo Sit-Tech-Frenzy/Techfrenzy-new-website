@@ -44,8 +44,9 @@ const Hero = () => {
           <AnimatedButton text='Register Now!'/>
         </a>
         <div>
-          <h2 className='text-2xl font-bold text-gray-500 p-4'>Hackathon begins in:</h2>
-          <CountDown />
+          <h2 className='text-2xl font-bold text-gray-400'>Coming soon...</h2>
+          {/* <h2 className='text-2xl font-bold text-gray-500 p-4'>Hackathon begins in:</h2> */}
+          {/* <CountDown /> */}
       </div>
       </div>
     </div>
